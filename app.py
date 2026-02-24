@@ -6,7 +6,7 @@ import joblib
 model = joblib.load("loan_model.pkl")
 model_columns = joblib.load("model_columns.pkl")
 
-st.set_page_config(page_title="Loan Risk Predictor")
+st.set_page_config(page_title="Micro-finance Loan Repayment Risk Predictor")
 
 st.title("🏦 Micro-finance Loan Repayment Risk Predictor")
 
